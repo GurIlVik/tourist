@@ -1,0 +1,837 @@
+html {
+  background: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0% 7.5% 0% 7.5%;
+  background: #555;
+  width: 85%;
+  height: 100%;
+  padding: 0;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  /* Ширина области */
+  height: 880px;
+  /* Высота области */
+  margin: 0;
+  /* Обнуляем отступы */
+}
+
+figure img {
+  width: 100%;
+  /* Ширина изображений */
+  height: 880px;
+  /* Высота изображении */
+  object-fit: cover;
+  /* Вписываем фотографию в область */
+}
+
+header {
+  position: absolute;
+  display: inline-block;
+  top: 2.5%;
+  left: 14%;
+  width: 67%;
+  height: 2%;
+  color: white;
+  z-index: 2;
+}
+
+#hd1 {
+  font-size: 3vw;
+}
+
+header nav {
+  position: absolute;
+  display: inline-block;
+  top: 5%;
+  right: -4%;
+  width: 57%;
+  height: 25px;
+  color: white;
+  z-index: 3;
+  font-size: 2vw;
+  overflow: unset;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header nav div {
+  display: inline-block;
+  margin: 0% 0% 0% 2%;
+}
+
+#hd2 {
+  margin: 0% 0% 0% 0%;
+  width: 80%;
+  height: 10%;
+  top: 31%;
+  left: 10%;
+  color: white;
+  position: absolute;
+  height: inherit;
+  text-align: center;
+}
+
+#hp1 {
+  font-size: 6vw;
+  margin: 0px 0px 30px 0px;
+  color: white;
+}
+
+#hp2 {
+  font-size: 2vw;
+  color: white;
+}
+
+main {
+  background: white;
+  margin: 0% 3%;
+  position: relative;
+  top: -60px;
+  left: auto;
+  width: 94%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 0px;
+  padding: 50px 0px 0px 0px;
+}
+
+p {
+  text-align: center;
+  font-size: 2vw;
+  color: gray;
+  margin: 0px;
+}
+
+article {
+  z-index: 2;
+}
+
+#fig1 {
+  position: relative;
+  width: 5%;
+  height: 5%;
+  top: -100px;
+  left: 84%;
+  z-index: 1;
+}
+
+#fig1 img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+
+.d2 {
+  margin: 2% 10% 10% 10%;
+  border: 2px solid #777;
+  position: relative;
+  /* display: flex;s */
+  width: 80%;
+  height: 90%;
+  border-radius: 8px;
+}
+
+.d3 {
+  margin: 0% 0% 0% 0%;
+  border-bottom: 2px solid #777;
+  position: relative;
+  width: 100%;
+  height: 90%;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 3%;
+  width: 100%;
+  height: 90%;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.billing_1 {
+  color: black;
+  margin-bottom: 2%;
+}
+
+.d4 {
+  position: relative;
+  width: 100%;
+  height: 90%;
+  text-align: left;
+}
+
+ul {
+  margin: 4% 0%;
+  list-style-type: none;
+  font-size: 1.5vw;
+}
+
+.next_black {
+  color: black;
+}
+
+.next_grey {
+  color: #777;
+}
+
+.start {
+  text-align: center;
+  background: rgb(73, 150, 161);
+  font-size: 1.2vw;
+  color: white;
+  padding: 0.2% 0%;
+  margin-bottom: 2%;
+  border-radius: 3px;
+}
+
+.p_1 {
+  font-size: 1.8vw;
+  margin-bottom: 3%;
+}
+
+#d5 {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  margin: 0% 67% 0% 20%;
+  width: 13%;
+  height: 400px;
+}
+
+.fig_znak {
+  margin: 0% 0% 10% 4%;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
+
+.figura_1 {
+  position: relative;
+  width: 80px;
+  /* Ширина области */
+  height: 80px;
+  /* Высота области */
+  margin: 0% 0% 5% 12%;
+  /* Обнуляем отступы */
+}
+
+.figura2 {
+  width: 60px;
+  /* Ширина изображений */
+  height: 60px;
+  /* Высота изображении */
+  object-fit: cover;
+  /* Вписываем фотографию в область */
+}
+
+.text-znak {
+  position: relative;
+  margin-top: 4%;
+  width: 100%;
+  font-size: 18pt;
+  text-align: center;
+}
+
+#d11 {
+  z-index: 10;
+}
+
+#d11_1 {
+  position: relative;
+  margin-top: 3%;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  z-index: 10;
+}
+
+.fig10 {
+  margin: 5% 15%;
+}
+
+.figura_10 {
+  width: 50%;
+  height: 60px;
+  margin: 0% 25%;
+}
+
+.figura2 {
+  border-radius: 50px;
+}
+
+.text-znak10 {
+  margin: 10% 0%;
+  width: 100%;
+  height: 100%;
+}
+
+.lik1 {
+  position: relative;
+  margin-bottom: 10%;
+  top: 0;
+  left: -5%;
+  width: 110%;
+  height: 5%;
+  color: black;
+  display: inline-block;
+}
+
+.lik2 {
+  position: relative;
+  top: 5%;
+  left: -10%;
+  width: 120%;
+  height: 5%;
+  color: #777;
+  font-size: 1.2vw;
+  vertical-align: middle;
+  margin-bottom: 10%;
+}
+
+.lik3 {
+  position: relative;
+  top: 5%;
+  left: 0%;
+}
+
+#d12 {
+  position: relative;
+  top: 0px;
+  /* z-index: 1; */
+  width: 100%;
+  height: 240px;
+  /* background: #000 url(joshua-sortino-1300842-unsplash.jpg); Фоновый цвет и фоновый рисунок*/
+  color: #fff;
+  /*Цвет текста на странице*/
+  /*   background-attachment: fixed;  Фон страницы фиксируется */
+  /* background-repeat: repeat-x;  Изображение повторяется по горизонтали */
+  background: #000;
+}
+
+.figura_12 {
+  width: 100%;
+  height: 10px;
+  object-fit: cover;
+}
+
+.figura_12 img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+#d13 {
+  position: relative;
+  top: 20%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 10%;
+}
+
+h3 {
+  font-size: 3.5vw;
+  text-align: center;
+  margin: 5% 0%;
+  color: #fff;
+}
+
+#d14 {
+  position: relative;
+  top: 30%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 10%;
+}
+
+h4 {
+  font-size: 1.1vw;
+  text-align: center;
+  margin: 2% 0%;
+  color: #fff;
+  z-index: 3;
+}
+
+#d15 {
+  position: relative;
+  top: 0px;
+  width: 100%;
+  height: 280px;
+  color: #fff;
+  background: #000;
+}
+
+.figura_13 {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.figura_13 img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+#d16 {
+  position: relative;
+  top: -100%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 10%;
+}
+
+#d17 {
+  position: relative;
+  top: -100%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 10%;
+}
+
+#d18 {
+  background: #fff;
+  border-radius: 20px;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  width: 80%;
+  height: 23%;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-around;
+}
+
+#d18_1 {
+  left: 0%;
+  width: 60%;
+  height: 35%;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#d18_2 {
+  width: 30%;
+  height: 55%;
+  background: rgb(7, 162, 170);
+  font-size: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.P_10 {
+  font-size: 1.2vw;
+  color: #fff;
+}
+
+#input_1 {
+  font-size: 1.2vw;
+  width: 140%;
+  height: 80%;
+}
+
+#d18_1_1 {
+  margin: 0% 2% 0% 20%;
+}
+
+#d21 {
+  position: relative;
+  margin-top: 3%;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-end;
+  align-content: space-around;
+}
+
+.fig20 {
+  width: 50%;
+  height: 45%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.figura_20 {
+  margin: 0% 0%;
+  width: 60px;
+  height: 60px;
+}
+
+.figura_20 img {
+  margin: 0% 0%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+article {
+  margin: 0;
+}
+
+#d30 {
+  width: 100%;
+  height: 1200px;
+  background: url(cosmic-timetraveler-1327434-unsplash.jpg);
+  /* Фоновый цвет и фоновый рисунок */
+  /*Цвет текста на странице*/
+  background-attachment: fixed;
+  /* Фон страницы фиксируется */
+  background-repeat: repeat-x;
+  /* Изображение повторяется по горизонтали */
+  /*  */
+}
+
+#d31 {
+  position: relative;
+  /* border: 2px solid white; */
+  top: 6%;
+  left: 10%;
+  text-align: left;
+  height: 80%;
+  width: 80%;
+}
+
+#d32 {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  height: 35%;
+  width: 100%;
+}
+
+#d33 {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 20%;
+  width: 100%;
+}
+
+#d33 h3 {
+  margin: 0;
+  text-align: left;
+}
+
+.figura_30 {
+  position: relative;
+  top: 7%;
+  left: 0;
+  height: 40px;
+  width: 40px;
+}
+
+.figura_30 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#d34 {
+  position: relative;
+  top: -5%;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+}
+
+.p30 {
+  color: white;
+  text-align: left;
+}
+
+#d35 {
+  position: relative;
+  top: 0;
+  left: 10%;
+  height: 20%;
+  width: 90%;
+}
+
+#d35 p {
+  color: white;
+  text-align: left;
+  font-size: 1.1vw;
+}
+
+#d36 {
+  position: relative;
+  top: -2%;
+  left: 0;
+  color: white;
+  font-size: 28pt;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+}
+
+.figura_31 {
+  position: relative;
+  top: -4%;
+  left: 0;
+  height: 40px;
+  width: 40px;
+}
+
+.figura_31 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#d36 {
+  position: relative;
+  top: -15%;
+  left: 10%;
+  width: 80%;
+  height: 10%;
+}
+
+.p31 {
+  color: white;
+  text-align: left;
+}
+
+#d37 {
+  position: relative;
+  top: -10%;
+  left: 10%;
+  height: 20%;
+  width: 90%;
+}
+
+#d37 p {
+  color: white;
+  text-align: left;
+  font-size: 1.1vw;
+}
+
+#d38 {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  height: 75%;
+  width: 100%;
+  display: grid;
+  grid-template: 3% 10% 73% 7% 7% / 3% 70% 19% 5% 3%;
+}
+
+#d38_1 {
+  background: #fff;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  border-radius: 10px;
+  display: grid;
+  grid-template: 15% 70% 15% / 7% 85% 7%;
+}
+
+#d39 {
+  grid-area: 2 / 2 / 3 / 3;
+  order: 4;
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr / 1fr;
+  width: 100%;
+  height: 100%;
+  justify-items: start;
+}
+
+#d39_1,
+#d39_2,
+#d39_3,
+#d39_4 {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  width: 100%;
+  height: 10%;
+  margin: 0;
+  align-self: start;
+  justify-self: start;
+  justify-items: start;
+  color: black;
+  font-size: 1.7vw;
+}
+
+#d39_1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+#d39_4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+#d39_2 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+#d39_3 {
+  grid-area: 7 / 1 / 8 / 2;
+}
+
+#d39_4 {
+  grid-area: 10 / 1 / 11 / 2;
+}
+
+#d39_5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+#d39_6 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+
+#d39_7 {
+  grid-area: 8 / 1 / 9 / 2;
+}
+
+#d39_8 {
+  grid-area: 11 / 1 / 14 / 2;
+}
+
+
+#d38_2 {
+  background: rgb(51, 90, 118);
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  border-radius: 5px;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  order: 2;
+}
+
+#d38_2 p {
+  color: #ccc;
+  font-size: 2vw;
+  justify-self: center;
+  align-self: center;
+}
+
+#d38_3 {
+  background: rgb(51, 90, 118);
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  border-radius: 5px;
+  display: grid;
+  grid-template: 1fr / 1fr;
+  order: 3;
+}
+
+#d38_3 p {
+  color: #ccc;
+  font-size: 1.2vw;
+  justify-self: center;
+  align-self: center;
+}
+
+#d39_1,
+#d39_2,
+#d39_3,
+#d39_4 {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  width: 100%;
+  height: 10%;
+}
+
+.p32 {
+  color: #000;
+  font-size: 1.5vw;
+  justify-self: center;
+  align-self: center;
+}
+
+.input_2 {
+  border-bottom: 1px solid grey;
+  font-size: 1.5vw;
+  width: 200%;
+  min-width: 100px;
+  max-width: 2500px;
+}
+
+.input_5 {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  border-bottom: 1px solid grey;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  padding: .5em;
+  width: 200%;
+  height: 80%;
+  min-width: 100px;
+  max-width: 2500px;
+}
+
+footer {
+  position: relative;
+  top: -20px;
+  background: #333;
+  height: 100%;
+  min-height: 200px;
+  width: 100%;
+  z-index: 20;
+}
+
+.d40 {
+  color: #aaa;
+  position: absolute;
+  top: 20%;
+  left: 11%;
+  width: 100%;
+  height: 15%;
+}
+
+.d40 div {
+  display: inline-flex;
+  margin-right: 7%;
+  font-size: 1.5vw;
+}
+
+/* .input_2:focus {
+  width: 200px;
+  min-width: 200px;
+  transition: all 1s ease;
+} */
+
+/* border: 2px solid black; 
+  border: 2px solid white;
+  border: 2px solid black;*/
