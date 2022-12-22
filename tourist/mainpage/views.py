@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    context = {'Zach' : "Диплом", 'Zach2' : "Зачет"}
+    context = {}
     return render(
         request,              # Запрос
 	'mainpage/index.html', # путь к шаблону
