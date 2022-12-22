@@ -11,10 +11,10 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
@@ -26,8 +26,6 @@ SECRET_KEY = 'django-insecure-_)7qxqx!594uuty(g1=#!sov8-rwkv=7$1ade93!+fh80fp*p1
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -117,6 +115,18 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+
+
+# вставка
+STATIC_ROOT = os.path.join(BASE_DIR, 'static', 'static_root')
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static', 'static_files'),
+)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR,  'static', 'media')
+# вставка
+
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
