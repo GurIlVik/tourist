@@ -1,6 +1,16 @@
-<h3>МЕНЮ</h3>
+{% load static %} 
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+  
+  <script src="{% static 'prosto.js' %}"> </script>
+  <input type="button" value="Ты уверен" onclick="cry()">
 
-{% for param in list_1%}
+</head>
+<body  src="{% static 'style.css' %}" >
+  <h3>МЕНЮ</h3>
+ {% for param in list_1%}
   <p>{{param}}</p>
   {% comment %} {% if int(param) % 2 == 0 %} 
     {% for param2 in list_2%}
@@ -9,3 +19,8 @@
   {% endif%} {% endcomment %}
   {% comment %} <p>{{an}} &nbsp </p> {% endcomment %}
 {% endfor %}
+
+
+
+</body>
+</html>
